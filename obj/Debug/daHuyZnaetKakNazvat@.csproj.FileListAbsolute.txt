@@ -1,0 +1,8 @@
+C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\bin\Debug\daHuyZnaetKakNazvat@.exe.config
+C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\bin\Debug\daHuyZnaetKakNazvat@.exe
+C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\bin\Debug\daHuyZnaetKakNazvat@.pdb
+C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\obj\Debug\daHuyZnaetKakNazvat@.csproj.AssemblyReference.cache
+C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\obj\Debug\daHuyZnaetKakNazvat@.csproj.SuggestedBindingRedirects.cache
+C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\obj\Debug\daHuyZnaetKakNazvat@.csproj.CoreCompileInputs.cache
+C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\obj\Debug\daHuyZnaetKakNazvat@.exe
+C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\obj\Debug\daHuyZnaetKakNazvat@.pdb
