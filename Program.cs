@@ -15,56 +15,41 @@ namespace daHuyZnaetKakNazvat_
             if (args[0].Contains(".bin"))
             {
                 Extract(args[0]);
+                return;
+            }
+            if (args[0].Contains(".txt"))
+            {
+                Build(args[0]);
+                return;
             }
         }
         public static void Extract(string binaryFile)
         {
-            System.IO.FileInfo file = new System.IO.FileInfo(binaryFile);
-            long size = file.Length;
-            Console.WriteLine($"File size is {size}");
             var reader = new BinaryReader(File.OpenRead(binaryFile));
-            string magic = Encoding.ASCII.GetString(reader.ReadBytes(4));
-            Console.WriteLine($"Magic: {magic}");
-            int[] sizeStr = new int[1230];
-            for (int i = 0; i < size; i++)
+            reader.ReadInt32();
+            List<string> allText = new List<string>();
+            while (reader.BaseStream.Position < reader.BaseStream.Length)
             {
-                if (reader.BaseStream.Position == size)
-                {
-                    break;
-                }
-                else
-                {
-                    sizeStr[i] = reader.ReadInt32();
-                    reader.BaseStream.Position += sizeStr[i] * 2;
-                    Console.WriteLine($"String {i + 1} have size {sizeStr[i]} ");
-                }
+                int size = reader.ReadInt32();
+                string text = Encoding.Unicode.GetString(reader.ReadBytes(size * 2));
+                allText.Add(text);
             }
-            reader.Close();
-            var reader1 = new BinaryReader(File.OpenRead(binaryFile));
-            reader1.BaseStream.Position += 8;
-            string[] strings = new string[1231];
-            for (int i = 0; i < 1230; i++)
-            {
-                if (i == 1230 || i == 1229)
-                {
-                    strings[i] = Encoding.Unicode.GetString(reader1.ReadBytes(sizeStr[i] * 2));
-                    Console.WriteLine($"String number {i + 1}: {strings[i]}");
-                }
-                else
-                {
-                    strings[i] = Encoding.Unicode.GetString(reader1.ReadBytes(sizeStr[i] * 2));
-                    reader1.ReadInt32();
-                    Console.WriteLine($"String number {i + 1}: {strings[i]}");
-                }
-
-            }
-            reader1.Close();
-            File.WriteAllLines(binaryFile + ".txt", strings);
-            Console.ReadKey();
+            File.WriteAllLines(binaryFile.Replace(".bin", ".txt"), allText);
         }
-        public static void Build()
+        public static void Build(string txtFile)
         {
-
+            
+            string[] textImp = File.ReadAllLines(txtFile);
+            int[] strSize = new int[textImp.Length];
+            using (BinaryWriter arcWriter = new BinaryWriter(File.Create(txtFile.Replace(".txt", ".bin"))))
+            {
+                arcWriter.Write(Encoding.UTF8.GetBytes("bcol"));
+                for (int i = 0; i < textImp.Length; i++)
+                {
+                    arcWriter.Write(Encoding.UTF8.GetByteCount(textImp[i]));
+                    arcWriter.Write(Encoding.Unicode.GetBytes(textImp[i]));
+                }
+            }
         }
 
     }

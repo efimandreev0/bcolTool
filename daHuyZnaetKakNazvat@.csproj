@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{46177B20-0965-45BC-AC6F-0340EA384AC6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>daHuyZnaetKakNazvat_</RootNamespace>
-    <AssemblyName>daHuyZnaetKakNazvat%40</AssemblyName>
+    <RootNamespace>bcolTool</RootNamespace>
+    <AssemblyName>bcolTool</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
