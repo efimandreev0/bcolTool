@@ -32,7 +32,7 @@ namespace daHuyZnaetKakNazvat_
             {
                 int size = reader.ReadInt32();
                 string text = Encoding.Unicode.GetString(reader.ReadBytes(size * 2));
-                allText.Add(text);
+                allText.Add(text.Replace("\n","<lf>").Replace("\r","<br>"));
             }
             File.WriteAllLines(binaryFile.Replace(".bin", ".txt"), allText);
         }
@@ -47,7 +47,7 @@ namespace daHuyZnaetKakNazvat_
                 for (int i = 0; i < textImp.Length; i++)
                 {
                     arcWriter.Write(Encoding.UTF8.GetByteCount(textImp[i]));
-                    arcWriter.Write(Encoding.Unicode.GetBytes(textImp[i]));
+                    arcWriter.Write(Encoding.Unicode.GetBytes(textImp[i].Replace("<lf>","\n").Replace("<br>","\r"))) ;
                 }
             }
         }

@@ -6,3 +6,10 @@ C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\bin\Debug\bcolTool.exe
 C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\bin\Debug\bcolTool.pdb
 C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\obj\Debug\bcolTool.exe
 C:\Users\zZz\source\repos\daHuyZnaetKakNazvat@\obj\Debug\bcolTool.pdb
+C:\Users\zZz\Source\Repos\bcolTool\bin\Debug\bcolTool.exe.config
+C:\Users\zZz\Source\Repos\bcolTool\bin\Debug\bcolTool.exe
+C:\Users\zZz\Source\Repos\bcolTool\bin\Debug\bcolTool.pdb
+C:\Users\zZz\Source\Repos\bcolTool\obj\Debug\daHuyZnaetKakNazvat@.csproj.AssemblyReference.cache
+C:\Users\zZz\Source\Repos\bcolTool\obj\Debug\daHuyZnaetKakNazvat@.csproj.CoreCompileInputs.cache
+C:\Users\zZz\Source\Repos\bcolTool\obj\Debug\bcolTool.exe
+C:\Users\zZz\Source\Repos\bcolTool\obj\Debug\bcolTool.pdb

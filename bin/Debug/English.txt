@@ -321,8 +321,7 @@ The Cruise of "The Gouty Toe"
 cruise_c
 Mr. Tooth
 cruise_whaleboss
-The Wreck of
-"The Gouty Toe"
+The Wreck of<lf>"The Gouty Toe"
 cruise_whaleboss_outro
 Whale Ride
 cruise_f
@@ -900,17 +899,11 @@ Even in death, this blushing corpse bride wants to get married. Wish her luck!
 monster_desc_91
 These ground wells were way ahead of their time - direct connections to the underworld just in case the Aztecs needed to come back to life.
 monster_desc_92
-Benny Boar's entire family was killed by the Aztecs for their morning meal. Now he's got a bone to pick with the undead.
-
-Rideable Creature
+Benny Boar's entire family was killed by the Aztecs for their morning meal. Now he's got a bone to pick with the undead.<lf><lf>Rideable Creature
 monster_desc_93
-Minidillo's a cute little sucker, but don't let him fool you. He keeps his best tongue-in-cheek responses for those who cross him.
-
-Rideable Creature
+Minidillo's a cute little sucker, but don't let him fool you. He keeps his best tongue-in-cheek responses for those who cross him.<lf><lf>Rideable Creature
 monster_desc_94
-Left in the tar pits, this Flameraptor collected all its fossilized remains and brought itself back to life just to kill baddies. Now that's dedication.
-
-Rideable Creature
+Left in the tar pits, this Flameraptor collected all its fossilized remains and brought itself back to life just to kill baddies. Now that's dedication.<lf><lf>Rideable Creature
 monster_desc_95
 Struck by lightning from outer space one day, he now wanders the waves in the derelict shipyard, righting grave injustice!
 monster_desc_96
@@ -936,13 +929,9 @@ If ninjas throw stars, Atlanteans throw starfish. Who'd have thunk?
 weapon_desc_6
 Oriental weapons traditionally used for defense. (All right - you can use them for offense, too.)
 weapon_desc_7
-These ice daggers emanate an unearthly cold, but thankfully never freeze your hardened hands.
-
-Has a small chance of Freezing the enemy.
+These ice daggers emanate an unearthly cold, but thankfully never freeze your hardened hands.<lf><lf>Has a small chance of Freezing the enemy.
 weapon_desc_8
-Made from metal mined straight from the Underworld, these cursed daggers rot the very souls of their victims.
-
-Has a chance of Poisoning the enemy.
+Made from metal mined straight from the Underworld, these cursed daggers rot the very souls of their victims.<lf><lf>Has a chance of Poisoning the enemy.
 weapon_desc_9
 The stock standard pistols. Cheap and plain, but they'll do.
 weapon_desc_10
@@ -964,9 +953,7 @@ weapon_desc_17
 weapon_desc_18
 When times are tough and you're fighting for your life, grab an oar and start swinging!
 weapon_desc_19
-You found this in the Temple of Bone. It seems unremarkable, but you're not really sure.
-
-Has a small chance to ??? the enemy.
+You found this in the Temple of Bone. It seems unremarkable, but you're not really sure.<lf><lf>Has a small chance to ??? the enemy.
 weapon_desc_20
 So this evil pirate comes in while I'm having my dinner, and all I had to fight with were these two legs of ham...
 weapon_desc_21
@@ -988,17 +975,13 @@ You can hurl monsters off the deck with it, then clean up the bloodstains afterw
 weapon_desc_29
 Ow! Ow! Double ow! Triple ow! Stop it! That's what they'll all say.
 weapon_desc_30
-Nothing sends a monster running faster than saying, "I love you."
-
-Has a small chance of Poisoning the enemy.
+Nothing sends a monster running faster than saying, "I love you."<lf><lf>Has a small chance of Poisoning the enemy.
 weapon_desc_31
 When you see someone heading towards you with this, it's best to look away. And run.
 weapon_desc_32
 Don't underestimate the cuttlefish! Especially when it's turned into a club.
 weapon_desc_33
-You could invent a highly sophisticated stun baton, or you could peer into the depths and get one of these. Bzzzt!
-
-Has a high chance of Electrifying the enemy.
+You could invent a highly sophisticated stun baton, or you could peer into the depths and get one of these. Bzzzt!<lf><lf>Has a high chance of Electrifying the enemy.
 weapon_desc_34
 A sea urchin hurts if you step on it. It hurts much, MUCH more if you coat it in iron, stick it on a long metal pole and smash someone in the face with it.
 weapon_desc_35
@@ -1008,17 +991,11 @@ Too fancy for the typical pirate. Thin blade, perfect balance, and a sharp point
 weapon_desc_37
 A heavy curved blade hailing from the Eastern tropics, this exotic machete can cleave many things, from foliage to foes.
 weapon_desc_38
-Do you know what the freezing point of blood is? No? Come here and I'll show you. 
-
-Has a small chance of Freezing the enemy.
+Do you know what the freezing point of blood is? No? Come here and I'll show you. <lf><lf>Has a small chance of Freezing the enemy.
 weapon_desc_39
-Its edge was forged from the tooth of a legendary serpent. Now Nidhogg's venom never runs out.
-
-Has a high chance of Poisoning the enemy.
+Its edge was forged from the tooth of a legendary serpent. Now Nidhogg's venom never runs out.<lf><lf>Has a high chance of Poisoning the enemy.
 weapon_desc_40
-Fueled by magma from the Underworld, this infernal weapon doubles as a torch in the dark.
-
-Has a chance of setting Fire to the enemy.
+Fueled by magma from the Underworld, this infernal weapon doubles as a torch in the dark.<lf><lf>Has a chance of setting Fire to the enemy.
 weapon_desc_41
 Some say this evil sword was made by the undead. Some say it's made of the undead instead.
 weapon_desc_42
@@ -1032,9 +1009,7 @@ Made by the Sky City civilization to resemble the paths of the sun and moon. The
 weapon_desc_46
 These swords look like the symbol of the Sky City empire, though you might not see the resemblance as they slice through you.
 weapon_desc_47
-What's better than a Flametongue? TWO Flametongues! 
-
-Has a high chance of setting Fire to the enemy.
+What's better than a Flametongue? TWO Flametongues! <lf><lf>Has a high chance of setting Fire to the enemy.
 weapon_desc_48
 When pirates say, "Bury the hatchet", they really mean, "Bury the enemies with the hatchet."
 weapon_desc_49
@@ -1044,15 +1019,11 @@ One axe is made of stone, the other made of metal. You're not quite sure why, bu
 weapon_desc_51
 The Aztec were very proud of their temples, and of their metalwork, so they fused both into one
 weapon_desc_52
-The Aztecs said this legendary weapon was struck by lightning during its forging. Centuries later, it still works!
-
-Has a chance of Electrifying the enemy.
+The Aztecs said this legendary weapon was struck by lightning during its forging. Centuries later, it still works!<lf><lf>Has a chance of Electrifying the enemy.
 weapon_desc_53
 They're really meant to catch large fish, like tuna. But they work well as pirate hands, too.
 weapon_desc_54
-Said to have been carved at a live volcano, these smoldering axes still smell of brimstone. And are still on fire.
-
-Has a small chance of setting Fire to the enemy.
+Said to have been carved at a live volcano, these smoldering axes still smell of brimstone. And are still on fire.<lf><lf>Has a small chance of setting Fire to the enemy.
 weapon_desc_55
 This huge axe is so heavy that you'll probably end up aiming for the knees. (Good enough, though.)
 weapon_desc_56
@@ -1062,21 +1033,13 @@ This was elegantly crafted with care and skill, but don't be fooled - it's still
 weapon_desc_58
 It's meant to keep enemies at arm's length. Which is ideal when you're dealing with the rotting dead.
 weapon_desc_59
-Enchanted by Necro himself, this axe drinks the very essence of its victims until there is nothing left.
-
-Has a chance of Poisoning the enemy.
+Enchanted by Necro himself, this axe drinks the very essence of its victims until there is nothing left.<lf><lf>Has a chance of Poisoning the enemy.
 weapon_desc_60
-Some say it's a curse - its bright pink, plastic exterior keeps all pirates at bay. Nobody wants to touch it. Except, apparently, you.
-
-Has a chance of ??? the enemy.
+Some say it's a curse - its bright pink, plastic exterior keeps all pirates at bay. Nobody wants to touch it. Except, apparently, you.<lf><lf>Has a chance of ??? the enemy.
 weapon_desc_61
-Now that Mr. Tooth is dead, I suppose he won't be needing these anymore.
-
-Has a tiny chance of ??? the enemy.
+Now that Mr. Tooth is dead, I suppose he won't be needing these anymore.<lf><lf>Has a tiny chance of ??? the enemy.
 weapon_desc_62
-The late Witch Doctor forged his weapon with lightning. Lots and lots of lightning.
-
-Has a chance of Electrifying the enemy.
+The late Witch Doctor forged his weapon with lightning. Lots and lots of lightning.<lf><lf>Has a chance of Electrifying the enemy.
 ResetPotion
 Elixir of New Beginnings
 Potion
@@ -1126,9 +1089,7 @@ Viridian Emerald
 Diamond
 Clear Diamond
 pickup_desc_1
-This Elixir, often mistaken as the Elixir of Youth, simply helps a person forget everything. May include side effects.
-
-Resets all Skill Points.
+This Elixir, often mistaken as the Elixir of Youth, simply helps a person forget everything. May include side effects.<lf><lf>Resets all Skill Points.
 pickup_desc_2
 An orb of spiritually charged energy, this allows you to reach into your inner Pirate PowARRR.
 pickup_desc_3
